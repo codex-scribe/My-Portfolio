@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
-import Content from './components/Content';
+import ContentContainer from './components/Content';
 import './index.css';
 
 export default function App() {
@@ -11,8 +11,7 @@ export default function App() {
 
     return (
         <div>
-            <Navbar />
-            <Content />
+            <ContentContainer />
         </div>
     )
 }
