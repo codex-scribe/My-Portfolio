@@ -28,8 +28,11 @@ export default function ContentContainer() {
 
     return (
         <div>
-            <Navbar pikachu={handlePageChange} />
+            <Navbar className='border-b-4 border-solid border-black' pikachu={handlePageChange} />
+            <div className='p-2 sm:p-6'>
             {renderPage()}
+            </div>
+            
         </div>
         
     )

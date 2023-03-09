@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Navbar(props) {
     return (
-        <nav className='flex-row flex'>
-            <div onClick={() => props.pikachu('about')}>Matt Brandenburgh</div>
-            <div>
-            <div onClick={() => props.pikachu('blog')} classname='border-5px p-4'>Blog</div>
-            <div onClick={() => props.pikachu('projects')} classname='border-5px p-4'>Projects</div>
-            <div onClick={() => props.pikachu('contact')} classname='border-5px p-4'>Contact</div>
+        <nav className='sm:flex-row sm:flex sm:justify-between'>
+            <div className='sm:p-6' onClick={() => props.pikachu('about')}>Matt Brandenburgh</div>
+            <div className='sm:flex-row sm:flex'>
+            <div className='sm:p-6' onClick={() => props.pikachu('blog')}>Blog</div>
+            <div className='sm:p-6' onClick={() => props.pikachu('projects')}>Projects</div>
+            <div className='sm:p-6' onClick={() => props.pikachu('contact')}>Contact</div>
             </div>
             
         </nav>
