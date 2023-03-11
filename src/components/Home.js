@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className='flex flex-row'>
             <div className='w-3/4'>
-                <h1>About Me</h1>
+                <h1 className='text-3xl font-semibold'>About Me</h1>
         <p>
 I am a web developer, having recently completed a course in computer programming at Georgia Tech. I studied math and physics at the University of Georgia, and worked as a math and physics tutor for years while living in New York City.
 
