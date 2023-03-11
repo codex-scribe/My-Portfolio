@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.832b9234.css",
+    "main.js": "/My-Portfolio/static/js/main.fc1c71a7.js",
+    "static/media/photo.png": "/My-Portfolio/static/media/photo.6e9ae825637bbe51c88d.png",
+    "static/media/Auctionplaza.png": "/My-Portfolio/static/media/Auctionplaza.2eaeeed88afc35d7df55.png",
+    "static/media/Dynamicscheduler.png": "/My-Portfolio/static/media/Dynamicscheduler.1f3ff864d0dd9593d3dd.png",
+    "static/media/Jate.png": "/My-Portfolio/static/media/Jate.19bd6a0682955857e27a.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.832b9234.css.map": "/My-Portfolio/static/css/main.832b9234.css.map",
+    "main.fc1c71a7.js.map": "/My-Portfolio/static/js/main.fc1c71a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.832b9234.css",
+    "static/js/main.fc1c71a7.js"
+  ]
+}
