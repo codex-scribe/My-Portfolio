@@ -3,22 +3,17 @@ import React from 'react';
 export default function Blog() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+      <h1 className='text-3xl font-semibold'>Blog Page</h1>
+      <div className='w-1/2'>
+      <p className='text-xl'>A New Beginning</p>
+      <p className='text-sm'>
+        March 10, 2023
       </p>
+      <p>I am about to graduate from my coding bootcamp at Georgia Tech.  I have learned a lot in this course, and I feel a great sense of accomplishment.</p>
+      <p>It seems like only yesterday when we sat down for our first class on Zoom, and our instructor began introducing HTML.  I had learned HTML before, but on the third day in class we began learning CSS, and after that everything was new.</p>
+      <p>Sometimes it seemed like the class would never let up.  We learned so much so fast, that I felt I wasn't getting anything.  But every now and then I would look back and see how far I had come.  A homework assignment from only two weeks ago looked simple now, elementary.  Each project was bigger than the one before.</p>
+      </div>
+      
     </div>
   );
 }

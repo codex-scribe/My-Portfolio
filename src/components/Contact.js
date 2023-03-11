@@ -3,22 +3,26 @@ import React from 'react';
 export default function Contacts() {
   return (
     <div>
-      <h1 >Contact Me</h1>
+      <h1 className='text-3xl font-semibold'>Contact Me</h1>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+Please feel free to get in touch with me via email.
       </p>
+      <form className="form mt-4 flex flex-col justify-center items-start w-1/3">
+        <div className="product-name-field w-full flex justify-between items-center pt-1">
+            <span className='w-1/2'>Name:</span>
+            <input className="border-2 w-1/2 rounded" id="user-name-field" type="text" required placeholder="name"/>
+        </div>
+        <div className="pt-1 category-field w-full flex justify-between items-center">
+            <span className='w-1/2'>Email:</span>
+            <input className="border-2 w-1/2 rounded" id="category-input" type="text" required placeholder="email"/>
+        </div>
+        <div className="description-field pt-1 w-full flex justify-between items-center">
+            <span className='w-1/2'>Message:</span>
+            <textarea class="border-2 w-1/2 rounded" rows="5" id="description-input" type="text" required placeholder="message"></textarea>
+        </div>
+        <button class="border-2 p-1 rounded" type="submit" id="submit-btn">Submit</button>
+    </form>
+      
     </div>
   );
 }
